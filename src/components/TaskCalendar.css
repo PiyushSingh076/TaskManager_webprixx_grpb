@@ -1,0 +1,22 @@
+/* src/App.css */
+.rbc-toolbar {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .rbc-event {
+    background-color: #28a745 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .rbc-day-bg:hover {
+    background: #f8f9fa;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  

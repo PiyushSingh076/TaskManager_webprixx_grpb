@@ -1,0 +1,49 @@
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .input-task,
+  .input-date,
+  .input-description,
+  .select-priority {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #f9fafc;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-description {
+    flex: 2;
+    height: 80px;
+    resize: none;
+  }
+  
+  .input-task:focus,
+  .input-date:focus,
+  .input-description:focus,
+  .select-priority:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-task-btn {
+    padding: 10px 15px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .add-task-btn:hover {
+    background: #0056b3;
+  }
+  

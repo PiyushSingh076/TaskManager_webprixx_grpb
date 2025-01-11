@@ -1,0 +1,109 @@
+/* Task List */
+.task-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Increased minimum width for better readability */
+    gap: 20px;
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  /* Task Card */
+  .task-card {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px; /* Rounded corners for a smoother look */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    overflow: hidden; /* Ensures content doesn’t overflow */
+  }
+  
+  .task-card:hover {
+    transform: translateY(-5px); /* Lift effect for hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+    background-color: #f8f9fa; /* Slight background change on hover */
+  }
+  
+  /* Task Title */
+  .task-title {
+    font-size: 1.3rem; /* Larger title for better emphasis */
+    font-weight: 600; /* Stronger font weight */
+    color: #007bff;
+    margin-bottom: 12px;
+    text-transform: capitalize; /* Capitalize first letter of title */
+    letter-spacing: 0.5px; /* Slight spacing for clarity */
+  }
+  
+  /* Task Description */
+  .task-description {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px; /* Increased bottom margin */
+  }
+  
+  /* Task Details */
+  .task-detail {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    height: 8px; /* Increased height for visibility */
+    background: #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 12px; /* Increased margin */
+  }
+  
+  .progress {
+    height: 100%;
+    background: #007bff;
+    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* Buttons */
+  .task-btn {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    font-weight: 600;
+  }
+  
+  .delete-btn:hover {
+    background: #b21f2d;
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  /* Button Text */
+  .task-btn-text {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  /* Add subtle animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .task-card {
+    animation: fadeInUp 0.5s ease-out; /* Subtle fade-in animation on load */
+  }
+  
