@@ -16,7 +16,7 @@ This is a React-based task manager application that allows users to create, mana
 
 1. Clone the repository:
    ```bash
-   git clone [invalid URL removed]
+   git clone (https://github.com/PiyushSingh076/TaskManager_webprixx_grpb.git)
    ```
 
 2. Navigate to the project directory:
@@ -35,8 +35,6 @@ This is a React-based task manager application that allows users to create, mana
    ```bash
    npm run dev
    ```
-
-2. Access the app in your web browser at `http://localhost:3000`.
 
 ## Usage
 
