@@ -49,11 +49,14 @@ This is a React-based task manager application that allows users to create, mana
 * React
 * JavaScript
 * CSS
+## SnapShot
+![image](https://github.com/user-attachments/assets/574dc4c9-8038-4780-84d8-dd59809d9415)
 
-## License
+![image](https://github.com/user-attachments/assets/9b920dbc-0560-4329-9374-32fd31dd1654)
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ## Contact
 
 For any questions or inquiries, please contact Piyush Singh at piyush1071singh@gmail.com.
+
+
